@@ -9,3 +9,40 @@ Reset
     padding: 0;
     box-sizing: border-box;
 }
+
+/* 
+*********
+Fonts
+*********
+*/
+
+h1,
+h2,
+h3 {
+    font-family: 'Fredoka', sans-serif;
+}
+
+/* 
+*********
+Common
+*********
+*/
+
+/* 
+*********
+Header
+*********
+*/
+
+.contenitore {
+    margin: auto;
+    max-width: 1100px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+div h1 {
+    font-size: 40px;
+    color: #e53170;
+    margin-bottom: 50px;
+}
