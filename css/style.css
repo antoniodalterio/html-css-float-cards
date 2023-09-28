@@ -28,6 +28,12 @@ Common
 *********
 */
 
+.clearfix {
+    content: "";
+    display: block;
+    clear: both;
+}
+
 /* 
 *********
 Header
@@ -39,10 +45,32 @@ Header
     max-width: 1100px;
     text-align: center;
     padding-top: 50px;
+    margin-bottom: 50px;
 }
 
 div h1 {
     font-size: 40px;
     color: #e53170;
     margin-bottom: 50px;
+}
+
+
+/* 
+*********
+Main
+*********
+*/
+
+.content-box {
+    margin: auto;
+    max-width: 1100px;
+}
+
+.celle {
+    width: calc(100% / 3 - 20px);
+    height: 100px;
+    float: left;
+    background-color: rgb(0, 4, 255);
+    border: 1px solid rgb(255, 0, 0);
+    margin: 10px;
 }
