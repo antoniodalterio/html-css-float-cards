@@ -20,13 +20,39 @@ h1,
 h2,
 h3 {
     font-family: 'Fredoka', sans-serif;
+
 }
+
+/* 
+*********
+Colori
+*********
+*/
+
+/*
+----------------
+ color: #0f0e17 ;
+ color: #e53170;
+ ---------------
+ */
+
 
 /* 
 *********
 Common
 *********
 */
+
+div .nome,
+.professione {
+    color: white;
+    margin-bottom: 8px;
+}
+
+div>a {
+    color: #72c2e4;
+    text-decoration: none;
+}
 
 .clearfix {
     content: "";
@@ -44,8 +70,7 @@ Header
     margin: auto;
     max-width: 1100px;
     text-align: center;
-    padding-top: 50px;
-    margin-bottom: 50px;
+    padding-top: 40px;
 }
 
 div h1 {
@@ -61,6 +86,11 @@ Main
 *********
 */
 
+/* 
+*********
+Tessere
+*********
+*/
 .content-box {
     margin: auto;
     max-width: 1100px;
@@ -68,9 +98,33 @@ Main
 
 .celle {
     width: calc(100% / 3 - 20px);
-    height: 100px;
     float: left;
-    background-color: rgb(0, 4, 255);
-    border: 1px solid rgb(255, 0, 0);
+    background-color: #0f0e17;
     margin: 10px;
+    margin-top: 50px;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.637);
+}
+
+/* 
+*********
+Contenuto Tessere
+*********
+*/
+
+img {
+    width: 100px;
+    height: 100px;
+    display: block;
+    float: left;
+}
+
+.info-testo {
+    width: calc(100% / 100px);
+    float: left;
+    padding: 12px;
+    padding-left: 15px;
+}
+
+.nome {
+    font-size: 20px;
 }
