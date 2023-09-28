@@ -18,9 +18,14 @@ Fonts
 
 h1,
 h2,
-h3 {
+h3,
+p {
     font-family: 'Fredoka', sans-serif;
 
+}
+
+p {
+    font-size: 18px;
 }
 
 /* 
@@ -43,15 +48,17 @@ Common
 *********
 */
 
+div a,
+.professione {
+    color: #72c2e4;
+    text-decoration: none;
+    font-family: 'Fredoka', sans-serif;
+}
+
 div .nome,
 .professione {
     color: white;
     margin-bottom: 8px;
-}
-
-div>a {
-    color: #72c2e4;
-    text-decoration: none;
 }
 
 .clearfix {
