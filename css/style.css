@@ -128,7 +128,7 @@ img {
 .info-testo {
     width: calc(100% / 100px);
     float: left;
-    padding: 12px;
+    padding: 10px;
     padding-left: 15px;
 }
 
